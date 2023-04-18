@@ -47,6 +47,7 @@
 		F689D98C29EE6CCC00E91A93 /* productType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productType.swift; sourceTree = "<group>"; };
 		F689D98E29EE714000E91A93 /* fetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchData.swift; sourceTree = "<group>"; };
 		F689D99029EE879D00E91A93 /* allProductsFromAPIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allProductsFromAPIType.swift; sourceTree = "<group>"; };
+		F689D99229EE996000E91A93 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F6D7954229EC566C0024176A /* sampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D7954529EC566C0024176A /* sampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAppApp.swift; sourceTree = "<group>"; };
 		F6D7954929EC566D0024176A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,6 +123,7 @@
 		F6D7953929EC566C0024176A = {
 			isa = PBXGroup;
 			children = (
+				F689D99229EE996000E91A93 /* README.md */,
 				F6D7954429EC566C0024176A /* sampleApp */,
 				F6D7955629EC566D0024176A /* sampleAppTests */,
 				F6D7956029EC566D0024176A /* sampleAppUITests */,

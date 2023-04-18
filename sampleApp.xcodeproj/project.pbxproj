@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F655480929ED120100E342AF /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F655480829ED120100E342AF /* Header.swift */; };
+		F655480C29ED13A200E342AF /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F655480B29ED13A200E342AF /* MainScreen.swift */; };
+		F689D98629EE576B00E91A93 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689D98529EE576B00E91A93 /* CustomButton.swift */; };
+		F689D98829EE65E900E91A93 /* CustomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689D98729EE65E900E91A93 /* CustomList.swift */; };
+		F689D98D29EE6CCC00E91A93 /* productType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689D98C29EE6CCC00E91A93 /* productType.swift */; };
+		F689D98F29EE714000E91A93 /* fetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689D98E29EE714000E91A93 /* fetchData.swift */; };
+		F689D99129EE879D00E91A93 /* allProductsFromAPIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689D99029EE879D00E91A93 /* allProductsFromAPIType.swift */; };
 		F6D7954629EC566C0024176A /* sampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7954529EC566C0024176A /* sampleAppApp.swift */; };
-		F6D7954829EC566C0024176A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7954729EC566C0024176A /* ContentView.swift */; };
 		F6D7954A29EC566D0024176A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D7954929EC566D0024176A /* Assets.xcassets */; };
 		F6D7954E29EC566D0024176A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D7954D29EC566D0024176A /* Preview Assets.xcassets */; };
 		F6D7955829EC566D0024176A /* sampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7955729EC566D0024176A /* sampleAppTests.swift */; };
@@ -34,9 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F655480829ED120100E342AF /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		F655480B29ED13A200E342AF /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		F689D98529EE576B00E91A93 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F689D98729EE65E900E91A93 /* CustomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomList.swift; sourceTree = "<group>"; };
+		F689D98C29EE6CCC00E91A93 /* productType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productType.swift; sourceTree = "<group>"; };
+		F689D98E29EE714000E91A93 /* fetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchData.swift; sourceTree = "<group>"; };
+		F689D99029EE879D00E91A93 /* allProductsFromAPIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allProductsFromAPIType.swift; sourceTree = "<group>"; };
 		F6D7954229EC566C0024176A /* sampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D7954529EC566C0024176A /* sampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAppApp.swift; sourceTree = "<group>"; };
-		F6D7954729EC566C0024176A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6D7954929EC566D0024176A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D7954B29EC566D0024176A /* sampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sampleApp.entitlements; sourceTree = "<group>"; };
 		F6D7954D29EC566D0024176A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -72,6 +84,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F655480729ED0E3000E342AF /* components */ = {
+			isa = PBXGroup;
+			children = (
+				F655480829ED120100E342AF /* Header.swift */,
+				F689D98529EE576B00E91A93 /* CustomButton.swift */,
+				F689D98729EE65E900E91A93 /* CustomList.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		F655480A29ED139000E342AF /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				F655480B29ED13A200E342AF /* MainScreen.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		F689D98A29EE69ED00E91A93 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F689D98E29EE714000E91A93 /* fetchData.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		F689D98B29EE6CB800E91A93 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				F689D98C29EE6CCC00E91A93 /* productType.swift */,
+				F689D99029EE879D00E91A93 /* allProductsFromAPIType.swift */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
 		F6D7953929EC566C0024176A = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +142,11 @@
 		F6D7954429EC566C0024176A /* sampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				F689D98B29EE6CB800E91A93 /* types */,
+				F689D98A29EE69ED00E91A93 /* utils */,
+				F655480A29ED139000E342AF /* screens */,
+				F655480729ED0E3000E342AF /* components */,
 				F6D7954529EC566C0024176A /* sampleAppApp.swift */,
-				F6D7954729EC566C0024176A /* ContentView.swift */,
 				F6D7954929EC566D0024176A /* Assets.xcassets */,
 				F6D7954B29EC566D0024176A /* sampleApp.entitlements */,
 				F6D7954C29EC566D0024176A /* Preview Content */,
@@ -259,7 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D7954829EC566C0024176A /* ContentView.swift in Sources */,
+				F689D98629EE576B00E91A93 /* CustomButton.swift in Sources */,
+				F655480C29ED13A200E342AF /* MainScreen.swift in Sources */,
+				F689D98F29EE714000E91A93 /* fetchData.swift in Sources */,
+				F655480929ED120100E342AF /* Header.swift in Sources */,
+				F689D99129EE879D00E91A93 /* allProductsFromAPIType.swift in Sources */,
+				F689D98D29EE6CCC00E91A93 /* productType.swift in Sources */,
+				F689D98829EE65E900E91A93 /* CustomList.swift in Sources */,
 				F6D7954629EC566C0024176A /* sampleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
